@@ -4,7 +4,7 @@
   "width": 800,
   "height": 600,
   "data": {
-    "url": "https://raw.githubusercontent.com/nathanwsoe/FIT3179/main/week_9/js/ne_110m_admin_0_countries.topojson",
+    "url": "https://raw.githubusercontent.com/nathanwsoe/Assignment-2/main/js/ne_110m_admin_0_countries.topojson",
     "format": {
           "type": "topojson",
           "feature": "ne_110m_admin_0_countries"
@@ -14,7 +14,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/nathanwsoe/FIT3179/main/week_9/data/WHO-COVID-19-global-table-data.csv"
+          "url": "https://raw.githubusercontent.com/nathanwsoe/Assignment-2/main/data/WHO-COVID-19-global-table-data.csv"
         },
         "key": "Name",
         "fields": ["Cases - cumulative total per 100000 population"]
@@ -22,7 +22,7 @@
     }
   ],
   "projection": {
-    "type": "equalearth"
+    "type": "equalEarth"
   },
   "mark": {
     "type": "geoshape"
